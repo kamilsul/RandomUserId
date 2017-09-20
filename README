@@ -1,0 +1,7 @@
+Assignment one: Random Id Generator
+
+Problem: Create a web application that receives user inputs first name and age and generates a random user id for it.
+
+Assumptions: 
+1) I assumed a random order between the name age and name with equal probability. (It may be something like 30Sarah or Sarah30 with equal probabilities)
+2) I Assumed that it's pleasant that the ID is not overly long. So if it's the name is shorter than or equal to 5, use it as it is. Otherwise, use a random legnth l of the name between 4 and 8, then use the first l number of letters from the name and plus the age. In other words, all Ids should be less than or equal to 10 in length. 
